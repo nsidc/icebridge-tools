@@ -1,0 +1,27 @@
+example_output_readIODMS1B.txt
+
+filename = 'ftp://n4ftl01u.ecs.nasa.gov/../SAN2/ICEBRIDGE_FTP/IODMS1B_DMSgeotiff_v01/2009_AN_NASA/DMS_DC8_Flt1000119/DMS_1000119_00042_20091031_14012140.tif
+data = readIODMS1B(filename);
+ 
+first few return values:
+data = 
+
+  Columns 1 through 3
+
+                  20091031                   50481.4                      2055
+
+  Columns 4 through 6
+
+         -67.9051333333333                 -68.45455         -67.9174305555556
+
+  Columns 7 through 9
+
+         -68.5374694444444         -67.9540444444444         -68.4991472222222
+
+  Columns 10 through 12
+
+                -67.941725         -68.4161083333333         -67.9295888888889
+
+  Column 13
+
+         -68.4768222222222
