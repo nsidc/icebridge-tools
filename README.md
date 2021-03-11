@@ -41,7 +41,7 @@ MATLAB reader for IceBridge Sea Ice Freeboard, Snow Depth, and Thickness data. F
 MATLAB readers for Sander AIRGrav gravity and aircraft attitude data files. For more information see [IceBridge Sander AIRGrav L1B Geolocated Free Air Gravity Anomalies](https://nsidc.org/data/iggrv1b.html).
 
 ### [ILATM1Bv1](ILATM1Bv1)
-IDL, MATLAB, and C readers for IceBridge ATM L1B Version 1 qfit data. For more information see [IceBridge ATM L1B Qfit Elevation and Return Strength](https://nsidc.org/data/ilatm1b/versions/1).
+C, IDL, and MATLAB readers for IceBridge ATM L1B Version 1 qfit data. For more information see [IceBridge ATM L1B Qfit Elevation and Return Strength](https://nsidc.org/data/ilatm1b/versions/1).
 
 ### [ILATM2v1](ILATM2v1)
 MATLAB reader for IceBridge ATM L2 Version 1 icessn data. For more information see [IceBridge ATM L2 Icessn Elevation, Slope, and Roughness](https://nsidc.org/data/ilatm2/versions/1).
@@ -53,7 +53,7 @@ Python code for finding matching laser shots in both the [IceBridge Narrow Swath
 MATLAB reader for IceBridge DMS L1B data. For more information see [IceBridge DMS L1B Geolocated and Orthorectified Images](https://nsidc.org/data/iodms1b.html).
 
 ### [IPAPP1B](IPAPP1B)
-MATLAB, Perl, and C readers for Applanix data files. For more information see [IceBridge POS/AV L1B Corrected Position and Attitude Data](https://nsidc.org/data/ipapp1b.html).
+C, MATLAB, and Perl readers for Applanix data files. For more information see [IceBridge POS/AV L1B Corrected Position and Attitude Data](https://nsidc.org/data/ipapp1b.html).
 
 ## Usage
 
