@@ -37,14 +37,8 @@ MATLAB reader for NSERC L1B data files. For more information see [IceBridge NSER
 ### [IDCSI2](IDCSI2)
 MATLAB reader for IceBridge Sea Ice Freeboard, Snow Depth, and Thickness data. For more information see [IceBridge Sea Ice Freeboard, Snow Depth, and Thickness](https://nsidc.org/data/idcsi2.html).
 
-### [IGGRV1B](IGGRV1B)
-MATLAB readers for Sander AIRGrav gravity and aircraft attitude data files. For more information see [IceBridge Sander AIRGrav L1B Geolocated Free Air Gravity Anomalies](https://nsidc.org/data/iggrv1b.html).
-
 ### [ILATM1Bv1](ILATM1Bv1)
 C, IDL, and MATLAB readers for IceBridge ATM L1B Version 1 qfit data. For more information see [IceBridge ATM L1B Qfit Elevation and Return Strength](https://nsidc.org/data/ilatm1b/versions/1).
-
-### [ILATM2v1](ILATM2v1)
-MATLAB reader for IceBridge ATM L2 Version 1 icessn data. For more information see [IceBridge ATM L2 Icessn Elevation, Slope, and Roughness](https://nsidc.org/data/ilatm2/versions/1).
 
 ### [ILNIRW1B](ILNIRW1B)
 Python code for finding matching laser shots in both the [IceBridge Narrow Swath ATM L1B Elevation and Return Strength with Waveforms](https://nsidc.org/data/ilnsaw1b) and the [IceBridge ATM L1B Near-Infrared Waveforms](https://nsidc.org/data/ilnirw1b) data products.
@@ -54,6 +48,23 @@ MATLAB reader for IceBridge DMS L1B data. For more information see [IceBridge DM
 
 ### [IPAPP1B](IPAPP1B)
 C, MATLAB, and Perl readers for Applanix data files. For more information see [IceBridge POS/AV L1B Corrected Position and Attitude Data](https://nsidc.org/data/ipapp1b.html).
+
+## Obsolete Tools
+The following tools have been removed, as they only worked with old versions of data sets that are no longer available. To retrieve these tools, use the `v0.9` release: https://github.com/nsidc/icebridge-tools/tree/v0.9
+
+### ILATM2, Version 1
+MATLAB reader for IceBridge ATM L2 Version 1 icessn data. For more information see [IceBridge ATM L2 Icessn Elevation, Slope, and Roughness](https://nsidc.org/data/ilatm2/versions/1).
+Written for the original version 1 data which used to be on `fasttrack` where a granule comprised `icessn` and `smooth` files. This version was retired and replaced by Version 2 which is a single file per granule `.csv`, rendering the reader inapplicable.
+
+### IGGRV1B
+MATLAB readers for Sander AIRGrav gravity and aircraft attitude data files. For more information see [IceBridge Sander AIRGrav L1B Geolocated Free Air Gravity Anomalies](https://nsidc.org/data/iggrv1b.html).
+Written for the original version 1 data which used to be on fasttrack (`.xyz` files), but was redelivered as `.txt` and contained more parameters and excluded separate `Attitude` files.
+
+### CReSISv1/IRMCR2
+Written for the original version 1 data which used to be on fasttrack (`.txt` files), but was redelivered as `.csv` for the entirety of the data record and ingested to ECS).
+
+### CReSISv1/IRSNO1B
+V1 was retired and replaced by version 2 and no longer has data access options publicly noted.
 
 ## Usage
 
