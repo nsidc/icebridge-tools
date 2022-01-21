@@ -82,7 +82,7 @@ def read_ATM2_icessn(full_filename):
     regex=re.compile(r'[-+]?(?:(?:\d*\.\d+)|(?:\d+\.?)|(?:\*+))(?:[Ee][+-]?\d+)?')
     # read the input file, split at lines and remove all commented lines
     with open(os.path.expanduser(full_filename),'r') as f:
-        file_contents=[i for i in f.read().splitlines() if re.match(r'^(?!\#)',i)]
+        file_contents=[i for i in f.readlines() if re.match(r'^(?!\#|\n)',i)]
     ind = [i for i,v in enumerate(dtype['names'])]
     # output python dictionary with variables
     ATM_L2_input = {}
